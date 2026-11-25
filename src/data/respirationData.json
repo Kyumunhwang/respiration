@@ -1,0 +1,349 @@
+{
+  "curriculumMeta": {
+    "code": "[9과11-03]",
+    "grade": "중학교 2학년",
+    "unit": "생물의 호흡과 배설",
+    "title": "호흡계의 구조와 기능, 호흡 운동의 원리",
+    "learningObjectives": [
+      "사람의 호흡계를 구성하는 기관(코, 기관, 기관지, 폐, 폐포)의 구조와 기능을 설명할 수 있다.",
+      "갈비뼈와 횡격막의 움직임에 따른 흉강과 폐의 부피·압력 변화로 들숨과 날숨이 일어나는 원리를 설명할 수 있다.",
+      "페트병 호흡 모형의 각 부분이 인체의 어느 구조에 해당하는지 대응시키고, 실제 호흡 운동과의 한계점을 설명할 수 있다.",
+      "폐포의 구조적 특징(수많은 작은 주머니, 얇은 세포벽, 모세혈관 그물망)과 분압 차에 의한 기체 교환 원리를 설명할 수 있다."
+    ]
+  },
+  "organs": [
+    {
+      "id": "nasal",
+      "nameKo": "코 (비강)",
+      "nameEn": "Nasal Cavity",
+      "shortRole": "외부 공기의 먼지·세균을 거르고 온도와 습도를 알맞게 조절하여 안쪽으로 보냄",
+      "detailedFunctions": [
+        "코털이 공기 중의 큰 먼지와 이물질을 1차로 걸러 줍니다.",
+        "비강 안쪽 점막에서 분비되는 끈적한 점액이 미세 먼지와 세균을 흡착합니다.",
+        "모세혈관이 촘촘히 분포하여 차갑고 건조한 공기를 체온에 가깝게 데우고 습도를 높여 폐를 보호합니다."
+      ],
+      "galleryAssetId": "nasal_cilia",
+      "galleryTitle": "비강 점막과 코털·섬모의 여과 작용",
+      "galleryCaption": "코털과 점액층이 먼지·세균을 붙잡고, 점막의 모세혈관이 공기의 온도와 습도를 조절합니다.",
+      "teacherQuestionTip": "겨울철 차가운 공기를 코가 아닌 입으로 계속 들이마시면 목이 금방 칼칼해지는 이유는 무엇일까요?",
+      "highlightColor": "#00B4D8"
+    },
+    {
+      "id": "trachea",
+      "nameKo": "기관",
+      "nameEn": "Trachea",
+      "shortRole": "말굽 모양 연골 고리로 기도를 열어 두고 섬모 운동으로 이물질을 배출함",
+      "detailedFunctions": [
+        "공기가 드나드는 굵은 관으로, C자(말굽) 모양의 연골 고리가 있어 숨을 들이쉴 때도 관이 찌그러지지 않고 항상 열려 있습니다.",
+        "안쪽 벽의 점액이 남은 먼지·세균을 붙잡고, 수많은 섬모가 위쪽(인두 방향)으로 규칙적으로 움직여 가래 형태로 배출합니다."
+      ],
+      "galleryAssetId": "trachea_cartilage",
+      "galleryTitle": "기관의 말굽 모양 연골 고리 및 섬모 상피 단면",
+      "galleryCaption": "단단한 연골 고리가 공기 통로를 유지하며, 섬모 상피세포가 이물질을 바깥쪽으로 쓸어 올립니다.",
+      "teacherQuestionTip": "기관 벽이 부드러운 살로만 되어 있지 않고 말굽 모양의 단단한 연골 고리로 둘러싸여 있는 까닭은 무엇일까요?",
+      "highlightColor": "#0EA5E9"
+    },
+    {
+      "id": "bronchi",
+      "nameKo": "기관지",
+      "nameEn": "Bronchi",
+      "shortRole": "기관에서 좌우 폐로 갈라져 들어가 세기관지로 이어지는 공기 통로",
+      "detailedFunctions": [
+        "기관의 아래쪽 끝에서 왼쪽과 오른쪽 폐로 두 갈래로 나뉘어 들어갑니다.",
+        "폐 내부로 들어가면서 나뭇가지처럼 가늘고 수많은 세기관지로 갈라져 각 폐포까지 공기를 고르게 전달합니다."
+      ],
+      "galleryAssetId": "trachea_cartilage",
+      "galleryTitle": "기관지와 세기관지의 나뭇가지형 분지 구조",
+      "galleryCaption": "좌우 기관지는 폐 속에서 점점 가느다란 세기관지로 갈라져 모든 폐포에 공기를 연결합니다.",
+      "teacherQuestionTip": "기관에서 갈라진 기관지가 폐 안에서 왜 나뭇가지처럼 수많은 가느다란 관(세기관지)으로 계속 갈라질까요?",
+      "highlightColor": "#0284C7"
+    },
+    {
+      "id": "lungs",
+      "nameKo": "폐",
+      "nameEn": "Lungs",
+      "shortRole": "흉강에 1쌍이 위치하며, 흉강 압력 변화에 따라 수동적으로 부풀고 줄어듦",
+      "detailedFunctions": [
+        "가슴 속 공간(흉강)에 좌·우 1쌍이 있으며, 횡격막과 갈비뼈에 의해 보호받습니다.",
+        "폐 자체에는 근육이 없어 스스로 수축하거나 이완하지 못하며, 갈비뼈와 횡격막의 움직임으로 생기는 흉강 압력 변화에 따라 수동적으로 크기가 변합니다.",
+        "내부가 약 3억~4억 개의 작은 폐포로 이루어져 있어 공기와 닿는 표면적을 극대화합니다."
+      ],
+      "galleryAssetId": "alveoli_capillaries",
+      "galleryTitle": "폐 내부의 포도송이 모양 폐포 다발과 모세혈관 그물망",
+      "galleryCaption": "폐는 근육이 없는 스펀지 같은 구조이며, 수억 개의 폐포가 모여 표면적을 운동장 반 개 크기만큼 넓혀 줍니다.",
+      "teacherQuestionTip": "사람들이 '폐가 스스로 숨을 들이쉰다'고 착각하기 쉽지만, 실제로 폐에 근육이 없다면 폐는 어떻게 커지고 작아질 수 있을까요?",
+      "highlightColor": "#F4A261"
+    },
+    {
+      "id": "alveoli",
+      "nameKo": "폐포",
+      "nameEn": "Alveoli",
+      "shortRole": "한 층의 얇은 세포벽과 모세혈관 그물망으로 O₂와 CO₂의 기체 교환을 수행함",
+      "detailedFunctions": [
+        "지름이 매우 작은 주머니 모양으로, 표면적을 극대화하여 기체 교환 효율을 높입니다.",
+        "벽이 한 층의 매우 얇은 상피세포로 되어 있어 기체가 빠르고 쉽게 통과할 수 있습니다.",
+        "주변을 둘러싼 모세혈관과의 기체 분압 차이에 의한 확산으로 산소(O₂)는 혈액으로, 이산화탄소(CO₂)는 폐포로 이동합니다."
+      ],
+      "galleryAssetId": "alveoli_diffusion",
+      "galleryTitle": "폐포 단면과 모세혈관 사이의 기체 교환 (확산)",
+      "galleryCaption": "한 층의 얇은 폐포 벽과 모세혈관 벽을 사이에 두고, 분압이 높은 쪽에서 낮은 쪽으로 O₂와 CO₂가 확산합니다.",
+      "teacherQuestionTip": "폐가 하나의 큰 풍선 모양이 아니라 수억 개의 작은 폐포로 나뉘어 있을 때 기체 교환에서 어떤 유리한 점이 있을까요?",
+      "highlightColor": "#E76F51"
+    }
+  ],
+  "causalSteps": [
+    {
+      "stepIndex": 1,
+      "id": "rib_diaphragm",
+      "label": "갈비뼈·횡격막 움직임",
+      "inhaleDirection": "up",
+      "inhaleText": "갈비뼈 상승(▲) · 횡격막 하강(▼)",
+      "exhaleDirection": "down",
+      "exhaleText": "갈비뼈 하강(▼) · 횡격막 상승(▲)",
+      "misconceptionNote": "들숨 시 갈비뼈는 위로 올라가고 횡격막은 아래로 내려가 흉강이 위아래·앞뒤좌우로 모두 넓어집니다. 두 구조가 반대 방향으로 움직여 공간을 키운다는 점에 주의하세요."
+    },
+    {
+      "stepIndex": 2,
+      "id": "thoracic_volume",
+      "label": "흉강 부피",
+      "inhaleDirection": "up",
+      "inhaleText": "흉강 부피 증가(▲)",
+      "exhaleDirection": "down",
+      "exhaleText": "흉강 부피 감소(▼)",
+      "misconceptionNote": "폐 부피가 먼저 커져서 흉강이 넓어지는 것이 아니라, 갈비뼈와 횡격막의 근육 운동으로 흉강 부피가 먼저 변합니다."
+    },
+    {
+      "stepIndex": 3,
+      "id": "thoracic_pressure",
+      "label": "흉강 압력",
+      "inhaleDirection": "down",
+      "inhaleText": "흉강 압력 감소(▼)",
+      "exhaleDirection": "up",
+      "exhaleText": "흉강 압력 증가(▲)",
+      "misconceptionNote": "보일의 법칙에 따라 일정한 온도에서 부피가 커지면 압력은 낮아지고(들숨), 부피가 작아지면 압력은 높아집니다(날숨)."
+    },
+    {
+      "stepIndex": 4,
+      "id": "lung_volume",
+      "label": "폐 부피",
+      "inhaleDirection": "up",
+      "inhaleText": "폐 부피 증가(▲)",
+      "exhaleDirection": "down",
+      "exhaleText": "폐 부피 감소(▼)",
+      "misconceptionNote": "폐에는 근육이 없어 스스로 커지지 못합니다. 흉강 압력이 낮아지면 폐를 누르던 힘이 줄어들어 폐가 수동적으로 부풀어 오릅니다."
+    },
+    {
+      "stepIndex": 5,
+      "id": "lung_pressure",
+      "label": "폐 내부 압력",
+      "inhaleDirection": "down",
+      "inhaleText": "폐 내부 압력 감소(▼, 대기압보다 낮아짐)",
+      "exhaleDirection": "up",
+      "exhaleText": "폐 내부 압력 증가(▲, 대기압보다 높아짐)",
+      "misconceptionNote": "외부 대기압(약 760 mmHg)은 일정하므로, 폐 내부 압력이 대기압보다 낮아져야 공기가 안으로 밀려 들어옵니다."
+    },
+    {
+      "stepIndex": 6,
+      "id": "airflow",
+      "label": "공기 이동",
+      "inhaleDirection": "in",
+      "inhaleText": "외부 공기가 폐로 유입",
+      "exhaleDirection": "out",
+      "exhaleText": "폐 내부 공기가 외부로 유출",
+      "misconceptionNote": "공기는 항상 압력이 높은 곳에서 낮은 곳으로 이동합니다. 공기가 먼저 들어와서 폐가 부푸는 것이 아니라 압력 변화의 결과로 공기가 이동합니다."
+    }
+  ],
+  "bottleMappings": [
+    {
+      "id": "y_tube",
+      "bottlePartName": "Y자관",
+      "humanOrganName": "기관 · 기관지",
+      "humanOrganId": "trachea",
+      "roleDescription": "외부 공기가 두 갈래 풍선(폐) 안팎으로 드나드는 공기 통로 역할을 합니다.",
+      "limitationNote": "실제 기관과 기관지에는 먼지를 거르는 점액과 섬모가 있고 폐 속에서 수많은 세기관지로 갈라지지만, Y자관은 단순한 플라스틱·유리관입니다.",
+      "isLimitationHighlighted": false
+    },
+    {
+      "id": "balloons",
+      "bottlePartName": "고무풍선",
+      "humanOrganName": "폐",
+      "humanOrganId": "lungs",
+      "roleDescription": "스스로 움직이는 근육 없이 페트병 내부의 압력 변화에 따라 수동적으로 부풀거나 오그라듭니다.",
+      "limitationNote": "실제 폐는 내부가 수억 개의 폐포와 모세혈관으로 채워져 기체 교환을 하지만, 고무풍선은 속이 빈 탄성 주머니일 뿐 기체 교환은 일어나지 않습니다.",
+      "isLimitationHighlighted": false
+    },
+    {
+      "id": "bottle_wall",
+      "bottlePartName": "페트병 벽면",
+      "humanOrganName": "흉강 벽 (갈비뼈)",
+      "humanOrganId": "ribcage",
+      "roleDescription": "내부 공간(흉강)을 둘러싸고 외부 충격으로부터 내부 기관을 보호하는 겉벽 역할을 합니다.",
+      "limitationNote": "【핵심 한계점】 실제 인체의 갈비뼈는 늑간근의 수축·이완으로 상하·좌우로 움직여 흉강 부피를 변화시키지만, 페트병 벽면은 딱딱한 플라스틱이라 움직이지 못해 부피를 바꿀 수 없습니다.",
+      "isLimitationHighlighted": true
+    },
+    {
+      "id": "rubber_sheet",
+      "bottlePartName": "고무막",
+      "humanOrganName": "횡격막 (가로막)",
+      "humanOrganId": "diaphragm",
+      "roleDescription": "아래로 잡아당기면(하강) 내부 부피가 늘어나고, 위로 밀어 올리면(상승) 내부 부피가 줄어드는 바닥 막 역할을 합니다.",
+      "limitationNote": "실제 횡격막은 근육으로 되어 있어 스스로 수축하며 아래로 내려가고 이완하며 위로 올라가지만, 모형의 고무막은 손으로 직접 당기거나 밀어야 움직입니다.",
+      "isLimitationHighlighted": false
+    },
+    {
+      "id": "bottle_space",
+      "bottlePartName": "페트병 내부 공간",
+      "humanOrganName": "흉강",
+      "humanOrganId": "thoracic_cavity",
+      "roleDescription": "고무풍선(폐)을 둘러싼 밀폐된 공간으로, 고무막의 움직임에 따라 부피와 압력이 변합니다.",
+      "limitationNote": "모형에서는 오직 바닥의 고무막 이동만으로 내부 공간 부피가 변하지만, 실제 흉강은 갈비뼈와 횡격막이 함께 움직여 훨씬 입체적으로 부피가 변합니다.",
+      "isLimitationHighlighted": false
+    }
+  ],
+  "misconceptionQuizzes": [
+    {
+      "id": "quiz_1",
+      "type": "OX",
+      "question": "폐는 스스로 근육이 있어 수축하고 이완한다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "폐 자체에는 근육이 없어 스스로 수축하거나 이완하지 못합니다. 갈비뼈와 횡격막의 움직임으로 흉강의 부피와 압력이 변함에 따라 폐가 수동적으로 부풀거나 줄어듭니다.",
+      "targetConcept": "폐의 수동성 원칙"
+    },
+    {
+      "id": "quiz_2",
+      "type": "OX",
+      "question": "들숨이 일어날 때 횡격막은 위로 올라간다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "들숨이 일어날 때는 갈비뼈가 위로 올라가고(상승) 횡격막은 아래로 내려가야(하강) 흉강의 부피가 커지고 압력이 낮아져 외부 공기가 폐로 들어옵니다.",
+      "targetConcept": "들숨 시 횡격막과 갈비뼈의 방향"
+    },
+    {
+      "id": "quiz_3",
+      "type": "OX",
+      "question": "페트병 호흡 모형에서 단단한 페트병 벽면은 실제 인체의 갈비뼈처럼 상하좌우로 움직여 내부 부피를 변화시킬 수 있다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "페트병 벽면은 딱딱한 플라스틱으로 고정되어 있어 실제 갈비뼈처럼 움직여 부피를 변화시키지 못합니다. 이것이 페트병 호흡 모형의 가장 중요한 한계점입니다.",
+      "targetConcept": "페트병 호흡 모형의 한계점"
+    },
+    {
+      "id": "quiz_4",
+      "type": "BLANK",
+      "question": "폐는 수많은 작은 주머니 모양의 폐포로 나뉘어 있어 공기와 닿는 [ ___ ]을(를) 극대화하여 기체 교환을 효율적으로 수행한다.",
+      "options": ["표면적", "무게", "압력", "온도"],
+      "answer": "표면적",
+      "explanation": "동일한 부피라도 하나의 큰 주머니보다 수억 개의 작은 폐포로 나뉘어 있을 때 공기와 모세혈관이 맞닿는 표면적이 폭발적으로 넓어져 기체 교환이 빠르게 일어납니다.",
+      "targetConcept": "폐포 구조와 표면적 극대화"
+    },
+    {
+      "id": "quiz_5",
+      "type": "BLANK",
+      "question": "들숨이 일어날 때 흉강 부피가 커지면 폐 내부 압력이 외부 대기압보다 [ ___ ] 공기가 폐 속으로 들어온다.",
+      "options": ["낮아져", "높아져", "같아져", "사라져"],
+      "answer": "낮아져",
+      "explanation": "흉강 부피 증가 → 흉강 압력 감소 → 폐 부피 증가 → 폐 내부 압력 감소의 순서로 진행되어, 폐 내부 압력이 대기압(약 760 mmHg)보다 낮아지면 공기가 폐로 유입됩니다.",
+      "targetConcept": "들숨 시 압력 차와 공기 이동"
+    },
+    {
+      "id": "quiz_6",
+      "type": "BLANK",
+      "question": "폐포와 모세혈관 사이에서 산소와 이산화탄소는 별도의 에너지 소모 없이 [ ___ ] 차이에 의한 확산으로 이동한다.",
+      "options": ["분압", "중력", "심장 박동", "체온"],
+      "answer": "분압",
+      "explanation": "기체는 항상 자신의 분압(부분 압력)이 높은 곳에서 낮은 곳으로 확산합니다. 폐포는 산소 분압이 높고 모세혈관 정맥혈은 이산화탄소 분압이 높아 서로 반대 방향으로 기체 교환이 일어납니다.",
+      "targetConcept": "분압 차에 의한 기체 확산"
+    }
+  ],
+  "physicsParams": {
+    "baselinePressureMmHg": 760,
+    "normalBpm": 15,
+    "exerciseBpm": 32,
+    "restThoracicVolumeMl": 3000,
+    "minThoracicVolumeMl": 2500,
+    "maxThoracicVolumeMl": 3500,
+    "restLungVolumeMl": 2400
+  },
+  "gasExchangeFacts": {
+    "diffusionPrinciple": "기체 분자는 추가 에너지(ATP) 소모 없이 자신의 분압(농도)이 높은 쪽에서 낮은 쪽으로 자연스럽게 확산하여 이동합니다.",
+    "surfaceAreaPrinciple": "동일한 전체 부피를 유지하더라도 반지름이 작은 수억 개의 폐포로 분할하면 전체 겉넓이(표면적)가 기하급수적으로 커져 기체 교환 속도가 극대화됩니다.",
+    "alveolus": {
+      "id": "alveolus",
+      "nameKo": "폐포 내부 공기",
+      "o2Level": "high",
+      "co2Level": "low",
+      "o2LevelKo": "높음",
+      "co2LevelKo": "낮음",
+      "o2MmHg": 104,
+      "co2MmHg": 40,
+      "description": "들숨으로 신선한 공기가 유입되어 산소(O₂) 분압이 높고, 이산화탄소(CO₂) 분압이 낮습니다."
+    },
+    "venousBlood": {
+      "id": "venousBlood",
+      "nameKo": "모세혈관 (폐동맥 쪽 · 정맥혈)",
+      "o2Level": "low",
+      "co2Level": "high",
+      "o2LevelKo": "낮음",
+      "co2LevelKo": "높음",
+      "o2MmHg": 40,
+      "co2MmHg": 45,
+      "description": "온몸의 조직 세포에서 산소를 쓰고 이산화탄소를 받아온 혈액으로, O₂ 분압이 낮고 CO₂ 분압이 높습니다."
+    },
+    "arterialBlood": {
+      "id": "arterialBlood",
+      "nameKo": "모세혈관 (폐정맥 쪽 · 동맥혈)",
+      "o2Level": "high",
+      "co2Level": "low",
+      "o2LevelKo": "높음",
+      "co2LevelKo": "낮음",
+      "o2MmHg": 100,
+      "co2MmHg": 40,
+      "description": "폐포로부터 산소를 충분히 공급받고 이산화탄소를 내보내 선홍색을 띠는 혈액입니다."
+    },
+    "o2TransferDirection": "폐포 (높음, 약 104 mmHg) → 모세혈관 혈액 (낮음, 약 40 mmHg)",
+    "co2TransferDirection": "모세혈관 혈액 (높음, 약 45 mmHg) → 폐포 (낮음, 약 40 mmHg)"
+  },
+  "tabTeacherTips": {
+    "structure": {
+      "tabId": "structure",
+      "tabTitle": "호흡계의 구조와 기능",
+      "coreQuestion": "공기가 코에서 폐포까지 이동하는 동안 각 기관이 어떤 '전처리'와 '보호' 역할을 담당할까요?",
+      "followUpTips": [
+        "블라인드 모드로 기관 이름을 가린 뒤 공기가 지나는 순서대로 학생들에게 발표시켜 보세요.",
+        "오른쪽 현미경/단면 갤러리를 함께 띄워 기관의 말굽 모양 연골과 폐포 모세혈관의 얇은 구조를 비교해 주세요."
+      ],
+      "expectedMisconception": "학생들은 기관을 단순한 파이프로만 생각하거나, 폐가 하나의 빈 주머니라고 오해하기 쉽습니다."
+    },
+    "mechanics": {
+      "tabId": "mechanics",
+      "tabTitle": "호흡 운동의 원리 (인체)",
+      "coreQuestion": "근육이 전혀 없는 폐가 어떻게 저절로 부풀었다 줄어들 수 있을까요? 가장 먼저 움직이는 곳은 어디일까요?",
+      "followUpTips": [
+        "슬라이더를 들숨 최대에 멈춘 뒤, 하단 6단계 인과관계 바를 1단계부터 6단계까지 순서대로 눌러 보며 '부피 → 압력 → 공기 이동' 순서를 강조하세요.",
+        "운동 후 빠른 호흡(32 BPM)으로 전환하여 호흡 깊이와 속도가 함께 빨라지는 현상을 관찰하게 하세요."
+      ],
+      "expectedMisconception": "공기가 먼저 들어와서 폐가 부푼다거나, 들숨 시 횡격막이 위로 올라간다고 생각하는 오개념이 가장 많습니다."
+    },
+    "bottle": {
+      "tabId": "bottle",
+      "tabTitle": "페트병 호흡 모형 비교",
+      "coreQuestion": "고무막을 아래로 잡아당기면 왜 풍선이 부풀어 오를까요? 그리고 이 모형이 실제 우리 몸과 똑같지 않은 결정적 한계는 무엇일까요?",
+      "followUpTips": [
+        "페트병 모형과 인체 흉곽을 나란히 두고 고무막을 천천히 당기며 풍선 크기 변화와 압력 게이지를 동시에 가리켜 보세요.",
+        "'페트병 벽면 ↔ 갈비뼈' 매핑을 클릭해 플라스틱 벽이 옆으로 넓어지지 않는 한계점을 시각적으로 확인시켜 주세요."
+      ],
+      "expectedMisconception": "고무풍선에 직접 바람을 불어넣어서 커지는 것처럼 착각하거나, 페트병 벽면도 갈비뼈처럼 움직인다고 오해하는 경우가 있습니다."
+    },
+    "alveoli": {
+      "tabId": "alveoli",
+      "tabTitle": "폐포의 구조와 기체 교환",
+      "coreQuestion": "산소와 이산화탄소는 누가 시키지 않아도 어떻게 정확히 반대 방향으로 건너갈 수 있을까요?",
+      "followUpTips": [
+        "표면적 비교 실험기로 '폐포 1개'와 '분할된 폐포 다발'의 겉넓이 차이를 먼저 수치로 확인하게 하세요.",
+        "정맥혈 적혈구가 폐포를 지나며 산소를 받아 선홍색 동맥혈로 변하는 모습을 분압 수치(높음→낮음)와 연결해 설명하세요."
+      ],
+      "expectedMisconception": "폐포에서 혈액 속으로 들어가는 기체와 혈액에서 폐포로 나오는 기체의 방향(O₂ vs CO₂)을 반대로 기억하거나, 심장이 기체를 밀어낸다고 오해합니다."
+    }
+  }
+}
